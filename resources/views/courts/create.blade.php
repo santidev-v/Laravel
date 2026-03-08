@@ -4,7 +4,6 @@
 
 @section('content')
     <h1>Nueva cancha (simulado)</h1>
-    <p class="muted">Este formulario es solo de demostracion (GET), no guarda datos.</p>
 
     <form method="GET" action="{{ route('courts.create') }}">
         <p>
